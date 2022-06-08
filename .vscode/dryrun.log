@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/bbqq/Desktop/protobuf'
+protoc --go_out=plugins=grpc:. protos/**/*.proto
+make: Leaving directory `/Users/bbqq/Desktop/protobuf'
+ 
